@@ -120,12 +120,12 @@
 		}
 
 		&.reveal {
-			@include vendor('animation', 'reveal-header 0.35s ease');
+			@include vendor('animation', 'reveal-header 0.25s ease');
 		}
 
 		&.alt {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
-			@include vendor('transition-delay', '0.75s');
+			@include vendor('transition-delay', '0.25s');
 			@include vendor('animation', 'none');
 			background-color: transparent;
 			box-shadow: none;

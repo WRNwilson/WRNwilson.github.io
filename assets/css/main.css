@@ -2796,10 +2796,10 @@ input, select, textarea {
 			}
 
 			.tiles article:before {
-				-moz-transition: opacity 0.5s ease;
-				-webkit-transition: opacity 0.5s ease;
-				-ms-transition: opacity 0.5s ease;
-				transition: opacity 0.5s ease;
+				-moz-transition: opacity 0.25s ease;
+				-webkit-transition: opacity 0.25s ease;
+				-ms-transition: opacity 0.25s ease;
+				transition: opacity 0.25s ease;
 				bottom: 0;
 				content: '';
 				display: block;
